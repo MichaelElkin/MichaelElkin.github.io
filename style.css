@@ -1,0 +1,64 @@
+*{
+    font-family:'Courier New', Courier, monospace; ;
+    background-image: url(images/background.jpg);
+}
+th{
+    border: solid 1px black;
+}
+tr{
+    border: solid 1px black;
+}
+td{
+    border: solid 1px black;
+}
+table{
+    border: solid 1px black;
+}
+h2{ 
+    text-align: center;
+}
+input:hover{
+    color: red;
+}
+.img{
+    border-radius: 5%;
+}
+h4{
+    font-size: 19px;
+}
+.kot{
+    animation-name: kotomoove;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    border-radius: 100px;
+    animation-name: kotospin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes kotomoove{
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+    transform: translateX(90%);
+    }
+    100%{
+        transform: translateX(0%);
+    ;
+    }
+}
+@keyframes kotospin{
+    0%{transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+p{
+    z-index: 1;
+}
